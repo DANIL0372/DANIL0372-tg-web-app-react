@@ -10,12 +10,12 @@ function App() {
         tg.ready();
     }, [])
 
-      return (
+    return (
         <div className="App">
             <Header />
             <button onClick={onToggleButton}>toggle</button>
         </div>
-      );
+    );
 }
 
 export default App;
